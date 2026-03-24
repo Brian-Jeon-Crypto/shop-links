@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>셀픽스토리 | 상품 링크 모음</title>
+  <meta name="description" content="집에서 고른 믿을 수 있는 쇼핑. 상품 링크를 한눈에 확인하세요." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <main class="app-shell">
+    <section class="phone-frame">
+      <div class="top-notice">
+         <div class="ticker">
+           <span>이 포스팅은 쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다.</span>
+         </div>
+      </div>
+
+      <header class="profile-card">
+        <div class="round-icon" aria-hidden="true">↗</div>
+        <div class="round-icon" aria-hidden="true">🔔</div>
+
+        <div class="brand-badge">셀픽스토리</div>
+        <h1>집에서 고른 믿을 수 있는 쇼핑</h1>
+        <a class="ghost-button" href="mailto:mullansui9517@gmail.com">✉ 비즈니스 제안</a>
+      </header>
+
+      <section class="search-area">
+        <label class="sr-only" for="searchInput">상품 검색</label>
+        <div class="search-box">
+          <span class="search-icon">⌕</span>
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="검색어를 입력해주세요."
+            autocomplete="off"
+          />
+        </div>
+      </section>
+
+      <section class="toolbar">
+        <button id="sortLatestBtn" class="toolbar-button active" type="button">최신순</button>
+        <button id="sortNameBtn" class="toolbar-button" type="button">이름순</button>
+        <span id="resultCount" class="result-count">0개 상품</span>
+      </section>
+
+      <section>
+        <ul id="productList" class="product-list" aria-live="polite"></ul>
+        <div id="emptyState" class="empty-state hidden">
+          검색 결과가 없습니다.
+        </div>
+      </section>
+
+      <footer class="footer-note">
+        <p>링크를 클릭하면 외부 쇼핑 페이지로 이동합니다.</p>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
