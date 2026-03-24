@@ -3,7 +3,7 @@ const products = [
     id: 1,
     title: "1번 전자레인지 1인 밥솥",
     description: "자취생용 간편 조리 아이템",
-    image: "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=300&q=80",
+    image: "images/01_item.jpg?auto=format&fit=crop&w=300&q=80",
     link: "https://link.coupang.com/a/eaP83M",
   }
 ];
