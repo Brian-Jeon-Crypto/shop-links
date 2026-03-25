@@ -1,5 +1,12 @@
 const products = [
   {
+    id: 5,
+    title: "5번 스마트 머그 인덕션",
+    description: "마지막 한 모금까지 따뜻하게",
+    image: "images/05_item.jpg",
+    link: "https://link.coupang.com/a/ebmMYJ",
+  },
+  {
     id: 4,
     title: "4번 흡착형 벽걸이 건조대",
     description: "AIESCO 무타공 흡착형 빨래 건조대",
