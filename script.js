@@ -1,5 +1,19 @@
 const products = [
   {
+    id: 4,
+    title: "4번 흡착형 벽걸이 건조대",
+    description: "AIESCO 무타공 흡착형 빨래 건조대",
+    image: "images/04_item.jpg",
+    link: "https://link.coupang.com/a/ebk00t",
+  },
+    {
+    id: 3,
+    title: "3번 유아용 물감",
+    description: "물에 잘 지워지는 물감(타이거 워터페인트)",
+    image: "images/03_item.jpg",
+    link: "https://link.coupang.com/a/ebi8h0",
+  },
+  {
     id: 3,
     title: "3번 유아용 물감",
     description: "물에 잘 지워지는 물감(타이거 워터페인트)",
