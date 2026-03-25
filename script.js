@@ -1,5 +1,12 @@
 const products = [
   {
+    id: 3,
+    title: "3번 유아용 물감",
+    description: "물에 잘 지워지는 워터 물감",
+    image: "images/03_item.jpg",
+    link: "https://link.coupang.com/a/ebi8h0",
+  },
+  {
     id: 2,
     title: "2번 코코피트 블럭",
     description: "코코넛 껍질 기반 배양토",
