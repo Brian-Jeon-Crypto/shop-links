@@ -6,13 +6,6 @@ const products = [
     image: "images/04_item.jpg",
     link: "https://link.coupang.com/a/ebk00t",
   },
-    {
-    id: 3,
-    title: "3번 유아용 물감",
-    description: "물에 잘 지워지는 물감(타이거 워터페인트)",
-    image: "images/03_item.jpg",
-    link: "https://link.coupang.com/a/ebi8h0",
-  },
   {
     id: 3,
     title: "3번 유아용 물감",
