@@ -5,7 +5,7 @@ const products = [
     description: "코코넛 껍질 기반 배양토",
     image: "images/02_item.jpg?auto=format&fit=crop&w=300&q=80",
     link: "https://link.coupang.com/a/ebdKOM",
-  }
+  },
   {
     id: 1,
     title: "1번 전자레인지 1인 밥솥",
