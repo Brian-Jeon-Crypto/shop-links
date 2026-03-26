@@ -1,5 +1,12 @@
 const products = [
   {
+    id: 6,
+    title: "6번 반려묘 포대기",
+    description: "귀여운 사자모양",
+    image: "images/06_item.jpg",
+    link: "https://link.coupang.com/a/eb6zYd",
+  },
+  {
     id: 5,
     title: "5번 스마트 머그 인덕션",
     description: "마지막 한 모금까지 따뜻하게",
