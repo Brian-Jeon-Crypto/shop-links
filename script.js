@@ -32,7 +32,7 @@ const products = [
     title: "2번 코코피트 블럭",
     description: "코코넛 껍질 기반 배양토",
     image: "images/02_item.jpg",
-    link: "https://link.coupang.com/a/ebdKOM",
+    link: "https://link.coupang.com/a/eclRor",
   },
   {
     id: 1,
