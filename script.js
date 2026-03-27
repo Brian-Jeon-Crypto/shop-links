@@ -1,5 +1,12 @@
 const products = [
   {
+    id: 7,
+    title: "7번 탈색없는 셀프 염색",
+    description: "카랄 바코 염색약",
+    image: "images/07_item.jpg",
+    link: "https://link.coupang.com/a/ecLmbB",
+  },
+  {
     id: 6,
     title: "6번 반려묘 포대기",
     description: "귀여운 사자모양",
