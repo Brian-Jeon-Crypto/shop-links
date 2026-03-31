@@ -1,5 +1,12 @@
 const products = [
   {
+    id: 8,
+    title: "8번 요요쉬 강아지 배변패드",
+    description: "프로랄와인향",
+    image: "images/08_item.jpg",
+    link: "https://link.coupang.com/a/efkSbX",
+  },
+  {
     id: 7,
     title: "7번 탈색없는 셀프 염색",
     description: "카랄 바코 염색약",
